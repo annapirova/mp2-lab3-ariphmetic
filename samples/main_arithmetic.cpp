@@ -5,9 +5,6 @@ using namespace std;
 
 int main() {
     setlocale(LC_ALL, "Russian");
-    //setlocale(LC_NUMERIC, "eng");
-    std::cout << std::stod("3,14") << std::endl;
-    std::cout < <std::stod("3.14") << std::endl;
     std::cout << "enter expression : ";
     string in;
     getline(cin, in);
